@@ -12,6 +12,7 @@ npm install
 Once the dependencies are installed, you can start the development server by running:
 
 npm run dev
+
 This will start the Express server and expose the GraphQL endpoint.
 
 #GraphQL Endpoint
