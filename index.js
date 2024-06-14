@@ -10,6 +10,7 @@ const {
   ApolloServerPluginDrainHttpServer,
 } = require("@apollo/server/plugin/drainHttpServer");
 const app = express();
+app.use(cors)
 app.use(bodyParser.json());
 const httpServer = http.createServer(app);
 
